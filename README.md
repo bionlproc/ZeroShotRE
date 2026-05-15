@@ -157,3 +157,19 @@ Arguments:
 `--max_examples`: Maxmium number of examples run by GPT. Set `None` to run on the whole `train/valid/test` dataset.
 
 `--openai_key`: An OpenAI API key is required for `gpt-4-1106-preview` and `o1` models, while a HuggingFace API key is required for `openai/gpt-oss-120b` model.
+
+---
+
+## Citation
+
+If you use our code/data, please considering citing our paper:
+
+```bibtex
+@inproceedings{brokman2025benchmark,
+  title={A benchmark for end-to-end zero-shot biomedical relation extraction with LLMs: experiments with OpenAI models},
+  author={Brokman, Aviv and Ai, Xuguang and Jiang, Yuhang and Gupta, Shashank and Kavuluru, Ramakanth},
+  booktitle={Proceedings of the Third Workshop for Artificial Intelligence for Scientific Publications},
+  pages={44--55},
+  year={2025}
+}
+```
